@@ -3,13 +3,21 @@
   "version": "1.0.0",
   "description": "how to setup a professional code",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "chaiAurcode",
     "backend"
   ],
   "author": "Gaurav singh",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "prettier": "^3.1.1"
+  }
 }
